@@ -25,6 +25,11 @@ const client = new ApolloClient({
   }*/
 });
 
+/**
+ * In diesem Projekt probiere ich keine Mutations aus. Diese sind das GraphQL Ding zu POST, PUT, DELETE 
+ * da ich eine public API nutze.
+ */
+
 
 root.render(
   <ApolloProvider client={client}>
