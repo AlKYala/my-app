@@ -54,6 +54,7 @@ function CountryBox() {
             renderInput={(params) => <TextField {...params} label="Select Country" />}
             onChange={(event, newValue) => {
                 //@ts-ignore
+                //remember to dispatch
                 dispatch(setCode(newValue.code));
             }}
         />
